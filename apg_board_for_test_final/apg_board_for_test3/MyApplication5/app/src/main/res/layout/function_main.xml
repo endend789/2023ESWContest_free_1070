@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:background="@drawable/edit_round"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/first" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="242dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:text="@string/main"
+            android:textSize="25sp"
+            android:fontFamily="@font/kalam_regular"
+            android:textColor="@color/gray"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="@drawable/edit"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="55dp">
+
+        <ImageView
+            android:id="@+id/mes"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/todo"
+            android:src="@drawable/mes" />
+
+        <TextView
+            android:id="@+id/bluetoothconnection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="블루투스 연결"
+            android:textSize="20sp"
+            android:fontFamily="@font/kalam_regular"
+            android:textColor="@color/gray"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="89dp"
+        tools:ignore="MissingConstraints" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            tools:ignore="MissingConstraints"> <!-- Set weightSum to evenly distribute space -->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/APGButton"
+                    android:layout_width="110dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/capture"
+                    android:text="@string/x" />
+
+                <TextView
+                    android:id="@+id/APG"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="혈관 탄성도 측정"
+                    android:textColor="#80000000"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/kalam_regular" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/explanationButton"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/zero"
+                    android:text="@string/x" />
+
+                <TextView
+                    android:id="@+id/explanation"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="설명자료"
+                    android:textColor="#80000000"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/kalam_regular" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="MissingConstraints">
+
+                <ImageButton
+                    android:id="@+id/statisticsButton"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/one" />
+
+                <TextView
+                    android:id="@+id/statistics"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="통계보기"
+                    android:textColor="#80000000"
+                    android:textSize="24sp"
+                    android:fontFamily="@font/kalam_regular" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</LinearLayout>

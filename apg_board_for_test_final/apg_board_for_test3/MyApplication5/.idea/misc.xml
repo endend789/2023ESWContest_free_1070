@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/activity_splash.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/before.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/device_info_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/dialog.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/dialog_apg.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/explanation.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/function_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/home.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/notice_item.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/statistics_apg_day.xml" value="0.36614583333333334" />
+        <entry key="..\:/AndroidApplications2/Detatchable_Vascular_Health_Meter/apg_board_for_test_final/apg_board_for_test3/MyApplication5/app/src/main/res/layout/statistics_apg_day_sub.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

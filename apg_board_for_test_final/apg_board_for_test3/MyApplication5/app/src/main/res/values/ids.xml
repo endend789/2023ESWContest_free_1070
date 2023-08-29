@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="mainLayout" type="id" />
+    <item name="action_settings" type="id" />
+    <item name="button_exit" type="id" />
+    <item name="button_inquire" type="id" />
+    <item name="button_how_to" type="id" />
+    <item name="button_connect_bluetooth" type="id" />
+    <item name="Chart1" type="id" />
+</resources>

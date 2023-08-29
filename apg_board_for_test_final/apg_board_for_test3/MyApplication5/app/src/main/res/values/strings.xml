@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name"> 탈착식 혈관 건강 측정기 </string>
+    <string name="text">   페어링 하기 </string>
+    <string name="bluetoothconnect"> 블루투스 연결 상태 : </string>
+    <string name="connect"> 디바이스 연결 설명 </string>
+    <string name="load"> ▣ 알림 기록 </string>
+    <string name="app"> 블루투스 연동 APP </string>
+    <string name="conn"> 블루투스 연결 </string>
+    <string name="upload"> 디바이스 신규 등록 </string>
+    <string name="pairing"> ▣ 페어링 된 디바이스 </string>
+    <string name="todo">TODO</string>
+    <string name="error"> 블루투스 디바이스와 연결 상태가 좋지 않습니다.\n" +
+    "계속해서 연결 상태가 좋지 않을 경우 아래 버튼을 눌러 다시 페어링을 시도하세요. </string>
+    <string name="title"> 탈착식 혈관 건강 측정기 </string>
+    <string name="bpm">BPM</string>
+    <string name="todo1">TODO</string>
+    <string name="apg">APG</string>
+    <string name="todo2">TODO</string>
+    <string name="vascular">혈관 탄성도</string>
+    <string name="vascularcheck">혈관 탄성도 측정</string>
+    <string name="age">혈관 건강 나이 =</string>
+    <string name="healthage">혈관 건강 나이</string>
+    <string name="point">. . . . .</string>
+    <string name="help">help</string>
+    <string name="todo3">TODO</string>
+    <string name="acc">도움말</string>
+    <string name="etc">측정 데이터 설명</string>
+    <string name="all">측정 데이터 통계보기</string>
+    <string name="todo4">TODO</string>
+    <string name="ppg"> 혈관 건강 나이란 혈관의 경직도, 즉 혈관의 탄성도 혹은 팽창성을 의미합니다. 나이가 들면 혈관 노화, 동맥경화 등에 의해 혈관의 탄력성이 떨어지게 되는데, 이를 PPG센서로 측정해 혈관 건강 나이로 환산하여 보여줍니다.</string>
+    <string name="todo5">TODO</string>
+    <string name="another">[추가 정보] 혈관 건강 나이가 적을수록 혈관 탄성 수치가 낮으며, 혈관 건강 나이가 높을수록 혈관 건강에 주의가 필요합니다\n</string>
+    <string name="x">help</string>
+    <string name="out">나가기</string>
+    <string name="before"> 혈관 탄성도 측정은 검지 손가락을 사용합니다. 테이블 위에 기기를 올려놓고 편안한 자세로 손가락을 발광센서 위에 가볍게 접촉합니다. 어플에서 측정시작 버튼을 누르게 되면 약 30초간 측정을 진행합니다.</string>
+    <string name="stop">유의사항</string>
+    <string name="quan">√ 손가락에 수분이나 땀이 있을 경우 제거 후 접촉하세요.</string>
+    <string name="quan1">√ 측정하는 동안 움직이거나 말하지 마세요.</string>
+    <string name="quan2">√ 측정 기기에 손가락을 가볍게 접촉하세요.</string>
+    <string name="main">혈관 건강 측정기</string>
+    <string name="apgss">[추가정보] 맥압은 수축기 혈압과 이완기 혈압의 차이를 말합니다. 이상적인 맥압은 35~45mmHg으로, 맥압이 클수록 혈관 탄력도가 낮다는 의미이며, 혈압이 정상이어도 맥압 차이가 크다면 혈관 탄력이 저하되었거나 대동맥이 경화되었을 가능성이 있습니다.</string>
+    <string name="apgs"> 혈액이 흐를 때 혈관 내벽을 밖으로 밀어내는 힘이 발생합니다. 탄력성이 좋은 혈관은 이 힘에 유연하게 대응하면서 혈압 상승을 억제하지만 탄력성이 낮은 혈관은 대응력이 낮기 때문에 혈압이 상승하게 됩니다. 따라서 혈관 탄력도가 낮을수록 혈액의 압력이 지속적으로 혈관 벽을 세게 자극하는 상태인 고혈압이 나타나기 쉽습니다.</string>
+
+</resources>
